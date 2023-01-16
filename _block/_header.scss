@@ -1,0 +1,147 @@
+header {
+  width: 100%;
+  height: 664px;
+  background-color: #84a178;
+
+  .navbar {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 0 10px;
+    // position: absolute;
+
+    .logo {
+      width: 6%;
+      // border: 1px solid;
+    }
+
+    .nav-list {
+      // border: 1px solid;
+      width: 94%;
+
+      .nav-item {
+        display: flex;
+        align-items: center;
+
+        .home {
+          margin-left: 270px;
+        }
+
+        a {
+          margin: 0 14px;
+          font-family: "Montserrat";
+          color: white;
+        }
+
+        a:hover {
+          color: #f8d24e;
+        }
+
+        .btn {
+          margin-right: 20px;
+          height: 42px;
+          width: 142px;
+          border: none;
+          border-radius: 5px;
+          background-color: #f8d24e;
+          font-family: "Montserrat";
+        }
+      }
+    }
+  }
+
+  .text-cream {
+    width: 100%;
+    height: 225px;
+    h2 {
+      // margin-top: 50px;
+      width: 367px;
+      height: 144px;
+
+      font-family: "Seymour One";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 38px;
+      line-height: 48px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-left: 10px;
+      margin-top: 30px;
+
+      color: #fcfcfc;
+    }
+
+    span {
+      font-family: "Montserrat";
+      margin-left: 10px;
+
+      button {
+        width: 134px;
+        height: 42px;
+        background-color: transparent;
+        border: 2px solid #f8d24e;
+        border-radius: 5px;
+        margin-top: 28px;
+        font-family: "Montserrat";
+        display: subgrid;
+      }
+
+      a {
+        color: #f8d24e;
+        border-bottom: 1px solid;
+        margin-left: 50px;
+        font-family: "Montserrat";
+      }
+    }
+    .sonlar {
+      width: 80px;
+      height: 100px;
+      margin-top: -180px;
+      margin-right: 1px;
+      h1 {
+        font-size: 46px;
+        font-family: "Montserrat";
+      }
+      p {
+        width: 100%;
+        color: white;
+      }
+    }
+  }
+
+  .shablon {
+    width: 100%;
+    margin-top: -30px;
+    // border: 1px solid;
+    height: 384px;
+    display: flex;
+    background-image: url("/images/fon\ tochka.png");
+
+    .group412 {
+      padding-left: -20px;
+      margin-top: -178px;
+      // background: rgba(252, 252, 252, 0.44);
+      // filter: blur(50px);
+      // border: 1px solid;
+    }
+    .icecream {
+      margin-top: 95px;
+      margin-left: 20px;
+      width: 225px;
+      height: 225px;
+    }
+    p {
+      width: 200px;
+      font-family: "Montserrat";
+      height: 100px;
+      margin-top: 155px;
+      margin-left: -70px;
+      color: white;
+      i {
+        margin-top: 20px;
+        color: white;
+      }
+    }
+  }
+}

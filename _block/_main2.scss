@@ -1,0 +1,239 @@
+main {
+  width: 100%;
+  border: 1px solid;
+  .ice-product {
+    width: 100%;
+    height: 1050px;
+    background-image: url("/images/fon\ 1.png");
+    h2 {
+      width: 100%;
+      text-align: center;
+      padding-top: 60px;
+      font-family: "Montserrat";
+      font-size: 30px;
+    }
+    h1 {
+      width: 100%;
+      text-align: center;
+      font-family: "Seymour One";
+      font-size: 36px;
+      margin-top: 5px;
+    }
+    .product-list {
+      width: 100%;
+      display: flex;
+      margin-top: 300px;
+      padding: 0;
+      .product-item1 {
+        width: 371px;
+        height: 536px;
+        background: #aec6a5;
+        box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+        border-radius: 24px;
+        img {
+          margin-top: -150px;
+          display: flex;
+          align-items: center;
+        }
+        .ice-p {
+          font-family: "Montserrat";
+          text-align: center;
+          font-size: 30px;
+        }
+        .soft-p {
+          width: 247px;
+          height: 147px;
+          text-align: center;
+          font-family: "Montserrat";
+          color: #131313;
+          letter-spacing: 0.04em;
+          margin-top: 65px;
+        }
+        i {
+          width: 100%;
+          text-align: center;
+          color: #131313;
+        }
+      }
+      .product-item2 {
+        width: 371px;
+        height: 536px;
+        background: #efd478;
+        box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+        border-radius: 24px;
+        img {
+          margin-top: -150px;
+          display: flex;
+          align-items: center;
+        }
+
+        .ice-p {
+          font-family: "Montserrat";
+          text-align: center;
+          font-size: 30px;
+        }
+        .soft-p {
+          width: 247px;
+          height: 147px;
+          text-align: center;
+          font-family: "Montserrat";
+          color: #131313;
+          letter-spacing: 0.04em;
+          margin-top: 65px;
+        }
+        i {
+          width: 100%;
+          text-align: center;
+          color: #131313;
+        }
+      }
+      .product-item3 {
+        width: 371px;
+        height: 536px;
+        background: #d6936d;
+        box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+        border-radius: 24px;
+        img {
+          margin-top: -150px;
+          display: flex;
+          align-items: center;
+        }
+        .ice-p {
+          font-family: "Montserrat";
+          text-align: center;
+          font-size: 30px;
+        }
+        .soft-p {
+          width: 247px;
+          height: 147px;
+          text-align: center;
+          font-family: "Montserrat";
+          color: #131313;
+          letter-spacing: 0.04em;
+          margin-top: 65px;
+        }
+        i {
+          width: 100%;
+          text-align: center;
+          color: #131313;
+        }
+      }
+    }
+  }
+  .made-in-china {
+    width: 100%;
+    height: 1226px;
+    background: #84a178;
+    .tradition {
+      width: 100%;
+      text-align: center;
+      font-size: 30px;
+      font-family: "Montserrat";
+      padding-top: 60px;
+      color: white;
+    }
+    h2 {
+      width: 100%;
+      text-align: center;
+      font-size: 36px;
+      font-family: "Seymour One";
+      color: white;
+      margin-top: 5px;
+    }
+    .made-list {
+      width: 100%;
+      display: flex;
+      margin-top: 82px;
+      padding: 0;
+
+      height: 58 0px;
+      .made-img {
+        width: 50%;
+      }
+      .made-text {
+        width: 50%;
+        padding-top: 150px;
+        p {
+          width: 463px;
+          margin: 5px 0;
+          font-family: "Montserrat";
+          color: white;
+        }
+        .btn2 {
+          margin-right: 20px;
+          height: 42px;
+          width: 142px;
+          border: none;
+          border-radius: 5px;
+          background-color: #f8d24e;
+          font-family: "Montserrat";
+          margin-top: 20px;
+        }
+      }
+    }
+    .kg-list {
+      width: 100%;
+      display: flex;
+      padding: 0;
+
+      margin-top: 50px;
+      .kg-item {
+        width: 368px;
+        height: 223px;
+
+        img {
+          display: flex;
+          align-items: center;
+          margin-top: 5px;
+        }
+        h2 {
+          font-family: "Montserrat";
+          font-size: 58px;
+          margin-top: 40px;
+        }
+        p {
+          text-align: center;
+          color: white;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .otzive {
+    width: 100%;
+    height: 1020px;
+    background-image: url("/images/fon\ 2.png");
+    .icecream2 {
+      margin: 0 94px;
+      margin-top: -100px;
+    }
+    .women {
+      display: flex;
+      align-items: center;
+      margin-top: 123px;
+    }
+    .text-women {
+      width: 968px;
+      height: 138px;
+      background: #84a178;
+      border-radius: 24px;
+      padding: 49px 109px 47px 109px;
+      text-align: center;
+      color: white;
+      margin-top: 32px;
+    }
+    .women-name {
+      text-align: center;
+      width: 100%;
+      margin-top: 32px;
+    }
+    span {
+      display: flex;
+      width: 120px;
+      margin-top: 32px;
+      i:hover {
+        color: #84a178;
+      }
+    }
+  }
+}

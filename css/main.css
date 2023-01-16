@@ -1,0 +1,464 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.continer {
+  width: 1200px;
+  border: 1px solid rgb(0, 255, 0);
+}
+.continer header {
+  width: 100%;
+  height: 664px;
+  background-color: #84a178;
+}
+.continer header .navbar {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 0 10px;
+}
+.continer header .navbar .logo {
+  width: 6%;
+}
+.continer header .navbar .nav-list {
+  width: 94%;
+}
+.continer header .navbar .nav-list .nav-item {
+  display: flex;
+  align-items: center;
+}
+.continer header .navbar .nav-list .nav-item .home {
+  margin-left: 270px;
+}
+.continer header .navbar .nav-list .nav-item a {
+  margin: 0 14px;
+  font-family: "Montserrat";
+  color: white;
+}
+.continer header .navbar .nav-list .nav-item a:hover {
+  color: #f8d24e;
+}
+.continer header .navbar .nav-list .nav-item .btn {
+  margin-right: 20px;
+  height: 42px;
+  width: 142px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8d24e;
+  font-family: "Montserrat";
+}
+.continer header .text-cream {
+  width: 100%;
+  height: 225px;
+}
+.continer header .text-cream h2 {
+  width: 367px;
+  height: 144px;
+  font-family: "Seymour One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 30px;
+  color: #fcfcfc;
+}
+.continer header .text-cream span {
+  font-family: "Montserrat";
+  margin-left: 10px;
+}
+.continer header .text-cream span button {
+  width: 134px;
+  height: 42px;
+  background-color: transparent;
+  border: 2px solid #f8d24e;
+  border-radius: 5px;
+  margin-top: 28px;
+  font-family: "Montserrat";
+  display: subgrid;
+}
+.continer header .text-cream span a {
+  color: #f8d24e;
+  border-bottom: 1px solid;
+  margin-left: 50px;
+  font-family: "Montserrat";
+}
+.continer header .text-cream .sonlar {
+  width: 80px;
+  height: 100px;
+  margin-top: -180px;
+  margin-right: 1px;
+}
+.continer header .text-cream .sonlar h1 {
+  font-size: 46px;
+  font-family: "Montserrat";
+}
+.continer header .text-cream .sonlar p {
+  width: 100%;
+  color: white;
+}
+.continer header .shablon {
+  width: 100%;
+  margin-top: -30px;
+  height: 384px;
+  display: flex;
+  background-image: url("/images/fon tochka.png");
+}
+.continer header .shablon .group412 {
+  padding-left: -20px;
+  margin-top: -178px;
+}
+.continer header .shablon .icecream {
+  margin-top: 95px;
+  margin-left: 20px;
+  width: 225px;
+  height: 225px;
+}
+.continer header .shablon p {
+  width: 200px;
+  font-family: "Montserrat";
+  height: 100px;
+  margin-top: 155px;
+  margin-left: -70px;
+  color: white;
+}
+.continer header .shablon p i {
+  margin-top: 20px;
+  color: white;
+}
+.continer main {
+  width: 100%;
+  border: 1px solid;
+}
+.continer main .ice-product {
+  width: 100%;
+  height: 1050px;
+  background-image: url("/images/fon 1.png");
+}
+.continer main .ice-product h2 {
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+  font-family: "Montserrat";
+  font-size: 30px;
+}
+.continer main .ice-product h1 {
+  width: 100%;
+  text-align: center;
+  font-family: "Seymour One";
+  font-size: 36px;
+  margin-top: 5px;
+}
+.continer main .ice-product .product-list {
+  width: 100%;
+  display: flex;
+  margin-top: 300px;
+  padding: 0;
+}
+.continer main .ice-product .product-list .product-item1 {
+  width: 371px;
+  height: 536px;
+  background: #aec6a5;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+.continer main .ice-product .product-list .product-item1 img {
+  margin-top: -150px;
+  display: flex;
+  align-items: center;
+}
+.continer main .ice-product .product-list .product-item1 .ice-p {
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 30px;
+}
+.continer main .ice-product .product-list .product-item1 .soft-p {
+  width: 247px;
+  height: 147px;
+  text-align: center;
+  font-family: "Montserrat";
+  color: #131313;
+  letter-spacing: 0.04em;
+  margin-top: 65px;
+}
+.continer main .ice-product .product-list .product-item1 i {
+  width: 100%;
+  text-align: center;
+  color: #131313;
+}
+.continer main .ice-product .product-list .product-item2 {
+  width: 371px;
+  height: 536px;
+  background: #efd478;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+.continer main .ice-product .product-list .product-item2 img {
+  margin-top: -150px;
+  display: flex;
+  align-items: center;
+}
+.continer main .ice-product .product-list .product-item2 .ice-p {
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 30px;
+}
+.continer main .ice-product .product-list .product-item2 .soft-p {
+  width: 247px;
+  height: 147px;
+  text-align: center;
+  font-family: "Montserrat";
+  color: #131313;
+  letter-spacing: 0.04em;
+  margin-top: 65px;
+}
+.continer main .ice-product .product-list .product-item2 i {
+  width: 100%;
+  text-align: center;
+  color: #131313;
+}
+.continer main .ice-product .product-list .product-item3 {
+  width: 371px;
+  height: 536px;
+  background: #d6936d;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+.continer main .ice-product .product-list .product-item3 img {
+  margin-top: -150px;
+  display: flex;
+  align-items: center;
+}
+.continer main .ice-product .product-list .product-item3 .ice-p {
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 30px;
+}
+.continer main .ice-product .product-list .product-item3 .soft-p {
+  width: 247px;
+  height: 147px;
+  text-align: center;
+  font-family: "Montserrat";
+  color: #131313;
+  letter-spacing: 0.04em;
+  margin-top: 65px;
+}
+.continer main .ice-product .product-list .product-item3 i {
+  width: 100%;
+  text-align: center;
+  color: #131313;
+}
+.continer main .made-in-china {
+  width: 100%;
+  height: 1226px;
+  background: #84a178;
+}
+.continer main .made-in-china .tradition {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Montserrat";
+  padding-top: 60px;
+  color: white;
+}
+.continer main .made-in-china h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  font-family: "Seymour One";
+  color: white;
+  margin-top: 5px;
+}
+.continer main .made-in-china .made-list {
+  width: 100%;
+  display: flex;
+  margin-top: 82px;
+  padding: 0;
+  height: 58 0px;
+}
+.continer main .made-in-china .made-list .made-img {
+  width: 50%;
+}
+.continer main .made-in-china .made-list .made-text {
+  width: 50%;
+  padding-top: 150px;
+}
+.continer main .made-in-china .made-list .made-text p {
+  width: 463px;
+  margin: 5px 0;
+  font-family: "Montserrat";
+  color: white;
+}
+.continer main .made-in-china .made-list .made-text .btn2 {
+  margin-right: 20px;
+  height: 42px;
+  width: 142px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8d24e;
+  font-family: "Montserrat";
+  margin-top: 20px;
+}
+.continer main .made-in-china .kg-list {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin-top: 50px;
+}
+.continer main .made-in-china .kg-list .kg-item {
+  width: 368px;
+  height: 223px;
+}
+.continer main .made-in-china .kg-list .kg-item img {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.continer main .made-in-china .kg-list .kg-item h2 {
+  font-family: "Montserrat";
+  font-size: 58px;
+  margin-top: 40px;
+}
+.continer main .made-in-china .kg-list .kg-item p {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+.continer main .otzive {
+  width: 100%;
+  height: 1020px;
+  background-image: url("/images/fon 2.png");
+}
+.continer main .otzive .icecream2 {
+  margin: 0 94px;
+  margin-top: -100px;
+}
+.continer main .otzive .women {
+  display: flex;
+  align-items: center;
+  margin-top: 123px;
+}
+.continer main .otzive .text-women {
+  width: 968px;
+  height: 138px;
+  background: #84a178;
+  border-radius: 24px;
+  padding: 49px 109px 47px 109px;
+  text-align: center;
+  color: white;
+  margin-top: 32px;
+}
+.continer main .otzive .women-name {
+  text-align: center;
+  width: 100%;
+  margin-top: 32px;
+}
+.continer main .otzive span {
+  display: flex;
+  width: 120px;
+  margin-top: 32px;
+}
+.continer main .otzive span i:hover {
+  color: #84a178;
+}
+.continer footer {
+  width: 100%;
+  height: 889px;
+  border: 1px solid;
+  background: #84a178;
+}
+.continer footer .footer1 {
+  width: 100%;
+  padding: 0;
+  display: flex;
+}
+.continer footer .footer1 .footer-item {
+  margin-top: -100px;
+  width: 368px;
+  height: 538px;
+  background: #ffffff;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  padding: 40px;
+}
+.continer footer .footer1 .footer-item .footer-p1 {
+  width: 75px;
+  height: 28px;
+  background: #f8d24e;
+  border-radius: 6px;
+  padding: 5px;
+  text-align: center;
+  margin-left: 0;
+}
+.continer footer .footer1 .footer-item .footer-p2 {
+  width: 138px;
+  height: 28px;
+  background: #f8d24e;
+  border-radius: 6px;
+  padding: 5px;
+  text-align: center;
+  margin-left: 0;
+}
+.continer footer .footer1 .footer-item h4 {
+  margin-top: 32px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.continer footer .footer1 .footer-item .footer-joy {
+  width: 100%;
+}
+.continer footer .footer1 .footer-item .footer-joy a {
+  color: black;
+}
+.continer footer .footer1 .footer-item .footer-joy a:hover {
+  color: #d6936d;
+}
+.continer footer .footer1 .footer-item h6 {
+  width: 100%;
+  border-bottom: 1px solid #e1e1e1;
+  margin-top: 32px;
+}
+.continer footer .footer1 .footer-item .vaqt {
+  color: #ababab;
+}
+.continer footer .footer1 .footer-item h1 {
+  width: 100%;
+  border-bottom: 1px solid #e1e1e1;
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+.continer footer .footer1 .footer-item .footer-tel a {
+  color: black;
+}
+.continer footer .footer1 .footer-item .footer-mail a {
+  color: black;
+}
+.continer footer .btn-footer {
+  width: 420px;
+  display: flex;
+  margin-top: 64px;
+}
+.continer footer .btn-footer .location-footer {
+  width: 196px;
+  height: 46px;
+  border-radius: 10px;
+  border: none;
+  background: #f8d24e;
+  font-family: "Montserrat";
+}
+.continer footer .btn-footer .franchise-footer {
+  width: 196px;
+  height: 46px;
+  border-radius: 10px;
+  border: 2px solid #f8d24e;
+  background: transparent;
+  font-family: "Montserrat";
+}
+
+/*# sourceMappingURL=main.css.map */
