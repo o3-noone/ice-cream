@@ -15,7 +15,9 @@ header {
       width: 6%;
       // border: 1px solid;
     }
-
+    .burger {
+      display: none;
+    }
     .nav-list {
       // border: 1px solid;
       width: 94%;
@@ -37,17 +39,16 @@ header {
         a:hover {
           color: #f8d24e;
         }
-
-        .btn {
-          margin-right: 20px;
-          height: 42px;
-          width: 142px;
-          border: none;
-          border-radius: 5px;
-          background-color: #f8d24e;
-          font-family: "Montserrat";
-        }
       }
+    }
+    .btn {
+      margin-right: 20px;
+      height: 42px;
+      width: 142px;
+      border: none;
+      border-radius: 5px;
+      background-color: #f8d24e;
+      font-family: "Montserrat";
     }
   }
 
@@ -116,6 +117,7 @@ header {
     // border: 1px solid;
     height: 384px;
     display: flex;
+    // position: absolute;
     background-image: url("/images/fon\ tochka.png");
 
     .group412 {
