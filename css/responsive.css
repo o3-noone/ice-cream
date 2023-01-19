@@ -179,6 +179,31 @@
   .continer footer {
     width: 100%;
   }
+  .continer footer .footer1 {
+    width: 100%;
+  }
+  .continer footer .footer1 .footer-item {
+    width: 224px;
+    height: 528px;
+  }
+  .continer footer .btn-footer .location-footer {
+    font-size: 14px;
+  }
+  .continer footer .btn-footer .franchise-footer {
+    font-size: 14px;
+  }
+  .continer footer .text2-footer .text2-footer-item1 p {
+    font-size: 20px;
+  }
+  .continer footer .text2-footer .text2-footer-item1 h3 {
+    font-size: 38px;
+  }
+  .continer footer .text2-footer .text2-footer-item2 .link-footer {
+    margin-left: 170px;
+  }
+  .continer footer .text2-footer .text2-footer-item2 .telefon-footer2 {
+    margin-left: 70px;
+  }
 }
 
 /*# sourceMappingURL=responsive.css.map */
